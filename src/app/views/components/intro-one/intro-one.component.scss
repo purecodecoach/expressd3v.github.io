@@ -1,0 +1,123 @@
+.home-intro-section {
+  background: url('../../../../assets/images/hero/hero1.jpg') no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  color: #212121;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  .container {
+    width: 1170px;
+  }
+}
+
+.home-intro-title {
+  margin: 0 0 40px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
+  color: #212121;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.home-intro-desc {
+  margin: 0 0 40px;
+  font-size: 18px;
+}
+
+.intro-list {
+  margin: 0 0 40px;
+}
+
+.intro-list div {
+  font-size: 18px;
+}
+
+.intro-list .mat-icon {
+  color: black;
+}
+
+.intro-product {
+  position: relative;
+  top: 100px;
+  left: 60px;
+}
+
+.intro-product-link {
+  position: absolute;
+  top: -110px;
+  left: -45px;
+  text-align: center;
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #fff;
+  color: rgba(0, 0, 0, .87);
+  padding: 37px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.2);
+  transition: all .3s ease;
+}
+
+.intro-product-link:hover {
+  box-shadow: 0 19px 32px rgba(0, 0, 0, 0.4);
+}
+
+.intro-product-link .price {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.intro-product-link .price-text {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .home-intro-section {
+    padding: 100px 0 0px;
+  }
+  .home-intro-title {
+    margin: 0 0 20px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
+    text-align: center;
+  }
+  .home-intro-desc {
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+  }
+  .intro-product {
+    top: 0;
+    left: 20px;
+  }
+  .intro-list{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro-product-link {
+    top: -80px;
+    transform: scale(.5);
+  }
+}
+
+/* custom code */
+button.mat-primary {
+  background-color: #2f1601 !important;
+}
+
+.mat-button-wrapper {
+  font-family: 'Oswald', sans-serif !important;
+}

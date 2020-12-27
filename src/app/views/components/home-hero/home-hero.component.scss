@@ -1,0 +1,9 @@
+mat-card{
+  padding: 0;
+  border-radius: 0;
+  justify-content: center;
+  display: flex;
+}
+mat-card:focus{
+  outline: none;
+}

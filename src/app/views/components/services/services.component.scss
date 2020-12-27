@@ -1,0 +1,16 @@
+.section-title{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+.mat-card{
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .section-title{
+    text-align: center;
+  }
+  .section-header p{
+    text-align: center;
+  }
+}

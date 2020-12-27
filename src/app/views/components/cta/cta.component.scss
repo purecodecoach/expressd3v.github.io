@@ -1,0 +1,21 @@
+.home-cta {
+  background-image: url("../../../../assets/images/hero/bg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+}
+.string-top{
+  font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .string-top{
+    text-align: center;
+  }
+  .string-bottom{
+    text-align: center;
+  }
+}

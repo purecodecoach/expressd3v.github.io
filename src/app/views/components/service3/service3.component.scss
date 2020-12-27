@@ -1,0 +1,23 @@
+.mat-card {
+  padding: 24px;
+}
+
+button.mat-primary {
+  background-color: #2f1601!important;
+}
+.action-title{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .action-title{
+    text-align: center;
+  }
+  .action-string{
+    text-align: center;
+  }
+  .right-action{
+    text-align: center;
+  }
+}

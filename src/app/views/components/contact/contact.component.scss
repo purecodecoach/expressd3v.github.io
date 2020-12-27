@@ -1,0 +1,16 @@
+.section-title{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+button.mat-primary {
+  background-color: #2f1601!important;
+  color: white;
+  border-radius: 300px;
+  .mat-icon{
+    margin-top: -2px;
+  }
+}
+button.mat-primary[disabled]{
+  background-color: rgba(0,0,0,0.3)!important;
+}

@@ -1,0 +1,20 @@
+<header id="home-header" [ngClass]="{'header-fixed': isFixed}">
+  <div class="container" fxLayout="row wrap" fxLayoutAlign="start center">
+    <div class="header-mobile-top" fxLayout="row" fxLayoutWrap="wrap" fxLayoutAlign="start center">
+      <div class="home-logo mr-1">
+          <a routerLink="/"><img id="logo" src="assets/images/logo/express-logo-dark.svg" alt="Egret logo"></a>
+      </div>
+      <button mat-icon-button id="menu-toggle" (click)="toggleMenu()"><mat-icon>menu</mat-icon></button>
+    </div>
+    <div fxFlex class="top-menu">
+      <button mat-button id="home-link" class="hometop-btn" routerLink="/"><strong>Home</strong></button>
+      <button mat-button id="about-link" class="hometop-btn" routerLink="/about"><strong>About</strong></button>
+      <button mat-button id="about-link" class="hometop-btn" routerLink="/service"><strong>Service</strong></button>
+      <button mat-button id="about-link" class="hometop-btn" routerLink="/portfolio"><strong>Portfolio</strong></button>
+      <!--<button mat-button id="about-link" class="hometop-btn" routerLink="/about"><strong>Blog</strong></button>-->
+      <button mat-button id="about-link" class="hometop-btn" routerLink="/contact"><strong>Contact</strong></button>
+      <span fxFlex></span>
+      <!--<button mat-button id="dashboard-topbtn" class="hometop-btn icon-button" (click)="buyEgret()"><mat-icon>person</mat-icon><strong> My Account</strong></button>-->
+    </div>
+  </div>
+</header>

@@ -1,0 +1,24 @@
+.item {
+  .mat-card {
+    margin: 0 16px;
+  }
+}
+.section-title{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+/* custom code */
+button.mat-primary {
+  background-color: #2f1601!important;
+}
+
+@media(max-width: 768px)
+{
+  .section-title{
+    text-align: center;
+  }
+  .section-header p{
+    text-align: center;
+  }
+}
