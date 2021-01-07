@@ -13,7 +13,7 @@ export class IntroTwoComponent implements OnInit {
   }
 
   buyEgret() {
-    window.open('https://themeforest.net/item/egret-angular-4-material-design-admin-template/20161805?ref=mh_rafi');
+    window.open('/');
   }
 
 }

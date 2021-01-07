@@ -5,7 +5,7 @@ import {Component, OnInit, OnDestroy} from '@angular/core';
     template: `
         <div class="landing">
             <app-header></app-header>
-            <app-home-hero></app-home-hero>
+            <app-intro></app-intro>
             <app-image-grid></app-image-grid>
             <app-portfolios></app-portfolios>
             <app-footer></app-footer>

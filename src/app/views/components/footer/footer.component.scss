@@ -10,7 +10,7 @@
   box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.2);
 }
 .footer-box:first-child {
-  padding-left: 0; 
+  padding-left: 0;
 }
 .footer-box-title {
   position: relative;
@@ -54,14 +54,14 @@
   -o-background-size: cover !important;
   background-size: cover !important;
 }
-.social-icon.facebook {
-  background: url('../../../../assets/images/social-facebook.png') no-repeat center center;
+.social-icon.skype {
+  background: url('../../../../assets/images/social/skype.svg') no-repeat center center;
 }
-.social-icon.twitter {
-  background: url('../../../../assets/images/social-twitter.png') no-repeat center center;
+.social-icon.whatsapp {
+  background: url('../../../../assets/images/social/whatsapp.svg') no-repeat center center;
 }
 .social-icon.linkedin {
-  background: url('../../../../assets/images/social-linkedin.png') no-repeat center center;
+  background: url('../../../../assets/images/social/linkedin.svg') no-repeat center center;
 }
 .social-icon.dribble {
   background: url('../../../../assets/images/social-dribble.png') no-repeat center center;
@@ -69,7 +69,7 @@
 
 @media (max-width: 959px) {
   .footer-box:first-child {
-    padding-left: 30px; 
+    padding-left: 30px;
   }
   .footer-box {
       box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);

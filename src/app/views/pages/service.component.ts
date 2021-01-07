@@ -5,7 +5,8 @@ import {Component, OnInit, OnDestroy} from '@angular/core';
     template: `
         <div class="landing">
             <app-header></app-header>
-            <app-intro-three></app-intro-three>
+            <app-intro></app-intro>
+            <app-home-hero></app-home-hero>
             <app-services-carousel [backgroundGray]="true"></app-services-carousel>
             <app-footer></app-footer>
         </div>`

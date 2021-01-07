@@ -19,8 +19,8 @@
   display: none;
 }
 #home-header:not(.header-fixed) .hometop-btn ::ng-deep .mat-button-ripple {
-  top: -22px;
-  bottom: -22px;
+  top: 0px;
+  bottom: 0px;
 }
 
 .header-fixed {
@@ -105,7 +105,7 @@
       display: block !important;
       width: 100% !important;
       flex: none !important;
-      background: #f3f3f3;
+      background: #fff;
   }
   .menu-opened:host .top-menu button {
       display: block;

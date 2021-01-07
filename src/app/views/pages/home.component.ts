@@ -7,7 +7,7 @@ import {Component, OnInit, OnDestroy} from '@angular/core';
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
             <app-header></app-header>
-            <app-intro></app-intro>
+            <app-intro-two></app-intro-two>
             <app-portfolio-carousel></app-portfolio-carousel>
             <app-services [backgroundGray]="true"></app-services>
             <app-cta></app-cta>
